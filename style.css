@@ -1021,3 +1021,23 @@ body #cda-remove {
     display: inline-block;
     width: 32px; 
   }
+
+  /* Add this style for the developer text */
+.home__subtitle {
+  color: #ff5733; /* Set a default color */
+}
+
+.developer {
+  background: linear-gradient(45deg, #ff5733, #6f31b1, #17c0eb, #ffcc29, #4caf50);
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent;
+  display: inline-block;
+  transition: background-position 0.5s ease;
+}
+
+/* Add animation on hover (optional) */
+.developer:hover {
+  background-size: 200% 200%;
+  background-position: right;
+}
