@@ -343,14 +343,22 @@ img {
   width: 70%;
 }
 
+.skills__rjs {
+  width: 60%;
+}
+
+.skills__njs {
+  width: 60%;
+}
+
 .skills__ml {
   width: 65%;
 }
 .skills__php {
-  width: 65%;
+  width: 75%;
 }
 .skills__sq {
-  width: 70%;
+  width: 75%;
 }
 .skills__gh {
   width: 85%;
@@ -561,9 +569,9 @@ img {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
+  margin: 10px 0.5%;
+  min-width: calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
   max-height: 360px;
   width: 48%;
   background: #3085a3;
@@ -997,6 +1005,13 @@ body #cda-remove {
   background-size: 28em;
   background-repeat: no-repeat;
 }
+
+.pro-img5 {
+  background-image: url(erp.jpg);
+  background-size: 28em;
+  background-repeat: no-repeat;
+}
+
 .link{
   text-decoration: none;
   color: white;
@@ -1041,3 +1056,4 @@ body #cda-remove {
   background-size: 200% 200%;
   background-position: right;
 }
+
