@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Gauri Agrawal</title>
+  <meta name="title" content="GauriAgrawal">
+  <meta name="description" content="This is a web developer portfolio html template.">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+
+</head>
+
+<body class="active" id="top">
+
+  <!-- 
+    -#PRELOADING
+  -->
+
+  <div class="loading" data-loading>
+    <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img">
+    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"></a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <p class="navbar-text">Sections</p>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Gauri Agrawal</h1>
+
+            <div class="wrapper h2">
+              <strong class="strong" data-letter-effect>Full Stack Developer</strong>
+              <strong class="strong" data-letter-effect>AI-ML Enthusiast</strong>
+              <strong class="strong" data-letter-effect>Student</strong>
+            </div>
+
+            <div>
+              <a href="https://drive.google.com/file/d/12XfUqnBNYewr2As8ygrlJpQVMSiUQHvR/view?usp=sharing" target="_blank" download class="resume-button">Download Resume</a>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="" class="shape">
+
+      </section>
+
+
+      <section class="section gallery" id="gallery">
+        <div class="container">
+
+          <a href="#portfolio" class="scroll-down">
+            <img src="./assets/images/scroll-down.svg" width="40" height="66" loading="lazy" alt="mouse scroll">
+          </a>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title" data-reveal="right">
+              Hi. I'm <br>Gauri Agrawal
+            </h2>
+
+            <div class="wrapper has-before" data-reveal="right">
+
+              <p class="section-text">
+                A passionate and skilled
+                <em class="em">web developer</em> and <em class="em">AI-ML</em> specialist with a passion for creating
+                beautiful, responsive, and user-friendly
+                <em class="em">websites</em> and <em class="em">ML models</em>. I've worked on a variety of web and ML
+                projects ranging from e-commerce platforms to ERP portal.
+              </p>
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="left">
+
+            <div class="img-holder has-before" style="--width: 512; --height: 684;">
+              <img src="./assets/images/about-banner.png" width="512" height="684" loading="lazy" alt="Riachard Ryan"
+                class="img-cover">
+            </div>
+
+            <img src="./assets/images/about-shape-2.svg" width="659" height="653" loading="lazy" alt=""
+              class="shape shape-2">
+
+          </figure>
+
+          <img src="./assets/images/about-shape-3.svg" width="239" height="232" loading="lazy" alt=""
+            class="shape shape-3">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-labelledby="service-lable">
+
+        <p class="section-subtitle container" id="service-lable">My Skills</p>
+
+        <ul class="service-list">
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">HTML/CSS</h3>
+                <p class="card-subtitle">
+                  Proficient in creating responsive and visually appealing web layouts.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="95"></div>
+                <div class="percentage">95%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">JavaScript</h3>
+                <p class="card-subtitle">
+                  Skilled in building interactive and dynamic web applications.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="85"></div>
+                <div class="percentage">85%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">Bootstrap</h3>
+                <p class="card-subtitle">
+                  Skilled in utilizing Bootstrap to create consistent and visually appealing designs.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="95"></div>
+                <div class="percentage">95%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">React.js</h3>
+                <p class="card-subtitle">
+                  Expert in building user interfaces with React.js, including reusable components and implementation of React Router.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="70"></div>
+                <div class="percentage">70%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">Node.js</h3>
+                <p class="card-subtitle">
+                  Proficient in building scalable server-side applications with Node.js, with experience working with NoSQL and SQL databases like MongoDB and MySQL.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="70"></div>
+                <div class="percentage">70%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">MySQL</h3>
+                <p class="card-subtitle">
+                  Expert in designing and optimizing MySQL databases.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="90"></div>
+                <div class="percentage">90%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">PHP</h3>
+                <p class="card-subtitle">
+                  Proficient in server-side scripting with PHP, skilled in developing dynamic web applications and content management systems, and experienced in integrating PHP with databases like MySQL.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="85"></div>
+                <div class="percentage">85%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">Python</h3>
+                <p class="card-subtitle">
+                  Expert in Python programming language for web development using Flask frameworks and skilled in data analysis, machine learning, and artificial intelligence with Python.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="75"></div>
+                <div class="percentage">75%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">Machine Learning</h3>
+                <p class="card-subtitle">
+                  Proficient in ML algorithms, data preprocessing, feature engineering, model evaluation, deep learning concepts and neural network architectures, and experienced in implementing ML models with various libraries.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="70"></div>
+                <div class="percentage">70%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+              <div>
+                <h3 class="h3 card-title">Flask</h3>
+                <p class="card-subtitle">
+                  Expert in building scalable and maintainable Flask web applications with Flask microframework, and skilled in integrating Flask with databases like SQLite and PostgreSQL.
+                </p>
+              </div>
+              <div class="circular-progress">
+                <div class="circle" data-progress="65"></div>
+                <div class="percentage">65%</div>
+              </div>
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
+        <div class="container">
+
+          <div class="portfolio-list">
+
+            <div class="wrapper">
+
+              <h2 class="h2 section-title" id="portfolio-label" data-reveal>My Recent Work.</h2>
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                  <img src="./assets/images/portfolio-1.jpg" width="700" height="605" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">VoiceLift-Help for Innocent</a>
+                  </h3>
+
+                  <p class="card-tag">Website with ML Model</p>
+
+                  <div class="project-description">
+                    <!-- Add your project description here -->
+                    The project aims to address challenges faced by under-trial prisoners in India by leveraging technology for enhanced access to justice, rehabilitation, and legal assistance. VoiceLift is a website connecting prisoners with legal resources and facilitating representation. Additionally, a platform links them with pro-bono lawyers, streamlining the bail process, while the rehabilitation program offers educational, vocational, and mental health support. Expected outcomes include improved legal aid access, rehabilitation outcomes, system transparency, and collaboration in legal proceedings.
+                  </div>
+
+                </div>
+
+                <a href="https://github.com/GauriGA/VoiceLift_Website" target="_blank" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+
+              </div>
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1091;">
+                  <img src="./assets/images/portfolio-5.jpg" width="700" height="1091" loading="lazy" alt="Wedding Shot"
+                    class="img-cover">
+                </figure>
+              
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">Pneumonia Detection using X-ray images</a>
+                  </h3>
+              
+                  <p class="card-tag">ML Model</p>
+              
+                  <div class="project-description">
+                    <!-- Add your project description here -->
+                    This project involves developing a machine learning model to detect pneumonia using X-ray images. By analyzing a dataset of chest X-ray images, the model aims to accurately classify whether a patient's X-ray indicates the presence or absence of pneumonia. Through machine learning techniques, such as convolutional neural networks (CNNs), the model will be trained to recognize patterns indicative of pneumonia in the images, enabling automated diagnosis.
+                  </div>
+                </div>
+              
+                <a href="https://github.com/GauriGA/MSCBootcamp" target="_blank" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+              
+              </div>
+              
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1000;">
+                  <img src="./assets/images/portfolio-6.webp" width="700" height="1000" loading="lazy" alt="Fashion Show"
+                    class="img-cover">
+                </figure>
+              
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="" class="card-title">Instagram clone</a>
+                  </h3>
+              
+                  <p class="card-tag">Website</p>
+              
+                  <div class="project-description">
+                    <!-- Add your project description here -->
+                    This project is an Instagram clone, replicating the core functionalities of the popular social media platform. It allows users to create accounts, upload photos, follow other users, like and comment on posts, and explore a feed of content.
+                  </div>
+              
+                </div>
+              
+                <a href="https://github.com/GauriGA/Instagram-Clone" target="_blank" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+              
+              </div>
+
+            </div>
+
+            <div class="wrapper">
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1000;">
+                  <img src="./assets/images/portfolio-3.jpg" width="700" height="1000" loading="lazy" alt="Fashion Show"
+                    class="img-cover">
+                </figure>
+              
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="" class="card-title">Mental Health Quiz</a>
+                  </h3>
+              
+                  <p class="card-tag">Flask website - ML Model</p>
+              
+                  <div class="project-description">
+                    <!-- Add your project description here -->
+                    This project involves the development of a Flask website integrated with a machine learning model for mental health evaluation. Users fill out a questionnaire, and the machine learning model processes their responses to provide an evaluation of their mental health status. The model analyzes the questionnaire data to assess various aspects of mental health. The Flask framework facilitates the creation of a user-friendly interface, allowing individuals to easily access the mental health evaluation tool.
+                  </div>
+              
+                </div>
+              
+                <a href="https://voicelift-flask.onrender.com" target="_blank" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+              
+              </div>              
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 850;">
+                  <img src="./assets/images/portfolio-4.jpg" width="700" height="850" loading="lazy" alt="Jumbo Barger"
+                    class="img-cover">
+                </figure>
+              
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">Facial Expression Recognition
+                    </a>
+                  </h3>
+              
+                  <p class="card-tag">ML Model</p>
+              
+                  <div class="project-description">
+                    <!-- Add your project description here -->
+                    This project utilizes Convolutional Neural Network (CNN) methodology along with the OpenCV framework, leveraging TensorFlow and Keras libraries. It aims to predict and recognize facial emotions in images, demonstrating proficiency in classifying facial emotion recognition (FER) from static photos. Through preprocessing methods for enhanced accuracy and feature extraction techniques isolating vital facial features such as the jawline, mouth, eyes, nose, and eyebrows, the model achieves a classification accuracy of 96.16% and a validation accuracy of 62.02%. It effectively distinguishes seven distinct emotions based on facial expressions.
+                  </div>
+              
+                </div>
+              
+                <a href="https://github.com/GauriGA/Facial_Expression_Recognition" target="_blank" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+              
+              </div>
+              
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1091;">
+                  <img src="./assets/images/portfolio-2.jpg" width="700" height="1091" loading="lazy" alt="Wedding Shot"
+                    class="img-cover">
+                </figure>
+              
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">Indira Gandhi Delhi Technical University for Women (IGDTUW) ERP Portal</a>
+                  </h3>
+              
+                  <p class="card-tag">Online Billing System</p>
+              
+                  <div class="project-description">
+                    <!-- Add your project description here -->
+                    This project is an ERP portal developed for Indira Gandhi Delhi Technical University for Women (IGDTUW). It streamlines administrative processes and communication within the institution, featuring modules for paper setting, paper evaluation, practical exam conduction, and admin functionalities for data visualization. 
+                  </div>
+                </div>
+              
+                <a href="https://github.com/aarushijain1/Online-Billing-System" target="_blank" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+              
+              </div> 
+
+            </div>
+
+          </div>
+
+          <img src="./assets/images/portfolio-shape.svg" width="286" height="232" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section" id="contact">
+      <div class="container">
+
+        <p class="section-subtitle" data-reveal>Contact Me</p>
+
+        <h2 class="h2 section-title" data-reveal>
+          Work inquiry, Job oportunities? Send Message.
+        </h2>
+
+        <form action="#" method="POST" class="contact-form" data-reveal>
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send</button>
+        </form>
+
+        <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/gauri-agrawal-9a2b66256/" target="_blank" class="social-link">Li.</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/GauriGA" target="_blank" class="social-link">Gi.</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/Gauri_015" target="_blank" class="social-link">Tw.</a>
+          </li>
+
+        </ul>
+
+
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="photography"
+        class="img-cover">
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
